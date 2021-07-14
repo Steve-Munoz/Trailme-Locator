@@ -5,6 +5,7 @@ import "./App.css"
 import Header from "./components/Header";
 import Home from "./components/Home";
 import TrailResults from "./components/TrailResults"
+import Footer from "./components/Footer"
 
 
 
@@ -24,6 +25,7 @@ function App() {
         </Route>
 
       </Switch>
+      <Footer/>
     </div>
   );
 }
